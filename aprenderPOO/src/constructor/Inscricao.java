@@ -15,5 +15,13 @@ public class Inscricao {
 		System.out.println(cadastro.getNome());
 		System.out.println(cadastro.getId());
 		System.out.println(cadastro.getCargo());
+		
+		cadastro.setNome("Ariel");
+		cadastro.setId("000003");
+		cadastro.setCargo("Professora");
+		
+		System.out.println(cadastro.getNome());
+		System.out.println(cadastro.getId());
+		System.out.println(cadastro.getCargo());
 	}
 }
